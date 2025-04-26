@@ -6,7 +6,7 @@ import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { AuthProvider, useAuth } from "./contexts/AuthContext";
 import Home from "./pages/Home";
 import Login from "./pages/Login";
-import Profile from "./pages/profile";
+import Profile from "./pages/Profile";
 import NotFound from "./pages/NotFound";
 import { motion } from "framer-motion"; // For animations
 import logo from "/public/logo.jpg"; // Adjust path to your logo/image
